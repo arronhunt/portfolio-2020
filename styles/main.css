@@ -1,3 +1,5 @@
+@import "../fonts/inter.css";
+
 :root {
   --color-background: #ffffff;
   --color-text-0: #111111;
@@ -57,7 +59,7 @@ p + p {
   margin-top: 1rem;
 }
 p {
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 h1 {
