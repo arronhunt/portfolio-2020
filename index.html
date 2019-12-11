@@ -14,14 +14,24 @@
   </head>
   <body class="grid-container">
     <a href="#main" class="skip-main">Skip to main content</a>
-    <img
-      src="img/arron-hero.jpg"
-      alt="Arron headshot"
-      width="720"
-      height="379"
-      class="hero-image"
-      style="display: block"
-    />
+    <picture class="hero-image-container">
+      <source
+        srcset="
+          img/arron-hero-1440.jpg 1440w,
+          img/arron-hero-720.jpg   720w,
+          img/arron-hero-480.jpg   480w,
+          img/arron-hero-360.jpg   360w
+        "
+      />
+      <img
+        src="img/arron-hero-1440.jpg"
+        alt="Arron headshot"
+        width="720"
+        height="379"
+        class="hero-image"
+        style="display: block"
+      />
+    </picture>
     <nav class="navigation" data-pad="1">
       <span class="title">Arron J. Hunt</span>
       <ul>

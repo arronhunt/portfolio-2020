@@ -122,9 +122,12 @@ a.skip-main:active {
   z-index: 999;
 }
 
-.hero-image {
+.hero-image-container {
   grid-column: hero;
   grid-row: 1 3;
+}
+
+.hero-image {
   height: 100vh;
   width: 50vw;
   object-fit: cover;
@@ -190,8 +193,10 @@ footer {
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
-  .hero-image {
+  .hero-image-container {
     grid-row: 2;
+  }
+  .hero-image {
     position: relative;
     max-height: 50vh;
     width: 100vw;
